@@ -1,23 +1,23 @@
 package ar.org.centro8.curso.java.entities;
 
-public class Alumno {
+public class alumnos {
     private int id;
     private String nombre;
     private String apellido;
     private int edad;
     private int curso;
 
-    public Alumno() {
+    public alumnos() {
     }
 
-    public Alumno(String nombre, String apellido, int edad, int curso) {
+    public alumnos(String nombre, String apellido, int edad, int curso) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
         this.curso = curso;
     }
 
-    public Alumno(int id, String nombre, String apellido, int edad, int curso) {
+    public alumnos(int id, String nombre, String apellido, int edad, int curso) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;

@@ -7,8 +7,8 @@ public class Connector {
     //private static String driver = "com.mysql.jdbc.Driver";
     private static String driver = "com.mysql.cj.jdbc.Driver";
     private static String vendor = "mysql";
-    //private static String server = "localhost";
-    private static String server = "172.16.10.250";
+    private static String server = "localhost";
+    //private static String server = "172.16.10.250";
     private static String port = "3306";
     private static String bd = "colegio";
     private static String user = "root";

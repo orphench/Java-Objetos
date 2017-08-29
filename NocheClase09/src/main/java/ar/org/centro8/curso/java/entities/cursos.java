@@ -1,23 +1,23 @@
 package ar.org.centro8.curso.java.entities;
 
-public class Curso {
+public class cursos {
     private int id;
     private String titulo;
     private String profesor;
     private String dia;
     private String turno;
 
-    public Curso() {
+    public cursos() {
     }
 
-    public Curso(String titulo, String profesor, String dia, String turno) {
+    public cursos(String titulo, String profesor, String dia, String turno) {
         this.titulo = titulo;
         this.profesor = profesor;
         this.dia = dia;
         this.turno = turno;
     }
 
-    public Curso(int id, String titulo, String profesor, String dia, String turno) {
+    public cursos(int id, String titulo, String profesor, String dia, String turno) {
         this.id = id;
         this.titulo = titulo;
         this.profesor = profesor;
